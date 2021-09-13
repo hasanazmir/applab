@@ -1,0 +1,203 @@
+ 
+/* Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {
+    /* hero*/
+     .text-end{
+         text-align: center !important;
+    }
+    /* hero*/
+    /*partner*/
+     .partner_icon{
+         padding: 20px;
+    }
+    /* apps*/
+     .apps-content{
+         text-align: center;
+    }
+     .apps-pic img,.desin-pic img{
+         width: 250px;
+    }
+    /* choos*/
+     .c_t{
+         border-left: none;
+    }
+     .choose_1st_l{
+         width: 100%;
+         text-align:center;
+    }
+     .choose_s_i{
+         text-align: center;
+    }
+    /* design */
+     .desin-pic{
+         text-align: center;
+    }
+     .design-text{
+         text-align: center;
+    }
+    /* plan*/
+     .plan_text{
+         width: 100%;
+    }
+     .plan-left{
+         text-align: center;
+    }
+    /* price*/
+     .switch_b{
+         margin-left: 25%;
+    }
+     .price_sing{
+         margin-bottom: 50px;
+    }
+    /* testimonial*/
+     .icon {
+         text-align: center;
+         display: inline-block;
+    }
+     .testimonial-text{
+         text-align: center;
+    }
+     .c-c-p {
+         left: 350px;
+    }
+    /* footer*/
+     .com_u ul li a{
+         padding: 15px 6px;
+    }
+     ol, ul {
+         padding-left: 0px !important;
+    }
+     .comon_title{
+         font-size: 20px !important;
+    }
+     .hero-left h1{
+         font-size: 24px;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    /* hero*/
+     .text-end{
+         text-align: center !important;
+    }
+    /* hero*/
+    /*partner*/
+     .partner_icon{
+         padding: 20px;
+    }
+    /* apps*/
+     .apps-content{
+         text-align: center;
+    }
+     .apps-pic img,.desin-pic img{
+         width: 350px;
+    }
+    /* choos*/
+     .c_t{
+         border-left: none;
+    }
+     .choose_1st_l{
+         width: 100%;
+         text-align:center;
+    }
+     .choose_s_i{
+         text-align: center;
+    }
+    /* design */
+     .desin-pic{
+         text-align: center;
+    }
+     .design-text{
+         text-align: center;
+    }
+    /* plan*/
+     .plan_text{
+         width: 100%;
+    }
+     .plan-left{
+         text-align: center;
+    }
+    /*design*/
+    /* price*/
+     .switch_b{
+         margin-left: 30%;
+    }
+     .price_sing{
+         margin-bottom: 50px;
+    }
+    /* price*/
+     .comon_title{
+         font-size: 24px !important;
+    }
+     .hero-left h1{
+         font-size: 28px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    /* hero*/
+    /* hero*/
+    /*partner*/
+     .partner_icon{
+         padding: 30px;
+    }
+    /* apps*/
+     .apps-content{
+         text-align: center;
+    }
+     .apps-pic img{
+         width: 450px;
+    }
+    /* chosse*/
+     .choose_1st_l{
+         width: 90%;
+         text-align: ;
+    }
+     .choose_s_i{
+         text-align: center;
+    }
+     .desin-pic img{
+         width: 350px;
+    }
+    /* plan*/
+     .plan-left{
+         text-align: center;
+    }
+     .plan_text{
+         width: 100%;
+    }
+     .plan-right{
+         text-align: center;
+    }
+    /* plan*/
+    /* price*/
+     .switch_b{
+         margin-left: 35%;
+    }
+    /* testimonial*/
+     .c-c-p {
+         left: 600px;
+    }
+    /* testimonial*/
+     .comon_title{
+         font-size: 28px !important;
+    }
+     .hero-left h1{
+         font-size: 35px;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+     .c-c-p{
+         left: 490px;
+    }
+}
+/* Extra Large devices (desktops, 992px and up)*/
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+     ... 
+}
+/* Extra extra large large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1400px) {
+     ... 
+}

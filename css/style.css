@@ -1,0 +1,249 @@
+ 
+/*font*/
+ @font-face{
+     src:url(../fonts/Poppins/Poppins-Regular.ttf);
+     font-family: Poppins-Regular;
+}
+ @font-face{
+     src:url(../fonts/Poppins/Poppins-Bold.ttf);
+     font-family: Poppins-Bold;
+}
+ @font-face{
+     src:url(../fonts/Poppins/Poppins-Medium.ttf);
+     font-family: Poppins-Medium;
+}
+/*font*/
+ *{
+     margin: 0px;
+     padding: 0px;
+}
+ body{
+     font-family: Poppins-Regular;
+     font-weight: 400;
+     font-size: 16px;
+     color: #616368;
+}
+ .com_sec{
+     padding: 80px 0px;
+}
+ .comon_title{
+     font-family: Poppins-Bold;
+     font-weight: 700;
+     font-size: 35px;
+     color: #242F51;
+}
+ h4{
+     font-family: Poppins-Bold;
+     font-weight: 700;
+     font-size: 20px;
+}
+/*header*/
+ .header{
+}
+ .navbar{
+     padding: 15px 0px;
+}
+ div#navbarNav {
+     margin-right: 60px;
+}
+ .logo-text{
+     font-family: Poppins-Bold;
+     font-weight: 700;
+     font-size: 24px;
+     letter-spacing: 1px;
+}
+ .logo-text span{
+     color: #242F51;
+}
+ a.nav-link{
+     font-family: Poppins-Medium;
+     font-weight: 500;
+     font-size: 16px;
+     color:#242F51 !important;
+}
+ .btn{
+     padding: 10px 30px;
+     color: #fff;
+     background-color: #2500F9;
+}
+ .sticky {
+     background-color: rgba(255, 255, 255, 0.9) !important;
+     box-shadow: 0 25px 45px rgb(79 86 101 / 8%);
+}
+/*header*/
+/*hero*/
+ #hero{
+     background-image: url(../image/illustrations/hero-bg.png);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-size: cover;
+     padding: 128px 0 60px;
+}
+ .icon-text {
+     margin: 30px 0px;
+     background-color: #e2eaed;
+     width: 300px;
+     color: #242f51;
+     align-items: center;
+}
+ .icon-text p {
+     margin-top: 10px;
+     margin-left: 20px;
+     margin-bottom: 10px;
+}
+ .hero-left h1{
+     font-family:Poppins-Bold;
+     font-weight: 700;
+     font-size: 45px;
+     color: #242F51;
+}
+ .fs{
+     margin: 20px 0px;
+     font-size: 22px;
+}
+ .btn2{
+     background: none;
+     color: #2500F9;
+}
+/*hero*/
+/*apps*/
+ .apps{
+}
+/*apps*/
+/*choose*/
+ .choose-r-p{
+     padding: 50px 0px;
+}
+ .c_l_b{
+     border-left: 1px solid #E1E0E4;
+}
+ .c_t{
+     margin-left: 30px;
+     margin-top: 10%;
+}
+ .choose_s_i{
+     padding: 20px 40px;
+}
+/*choose*/
+/*service*/
+/*service*/
+/*price*/
+ .switch_b{
+     display: flex;
+     margin-left: 44%;
+}
+ .form-switch {
+     margin: 0px 5px;
+     margin-top: 3px;
+}
+ .pr-2 {
+     margin-top: -20px;
+}
+ .price_sing {
+     border: 2px solid #dde0e6;
+     border-radius: 10px;
+}
+ .price-top{
+     padding: 50px 30px;
+     background-color: #fafafa;
+     border-radius: 10px;
+}
+ .price-top span{
+     font-family: Poppins-Bold;
+     font-weight: 700;
+     font-size: 40px;
+     color: #242F51;
+}
+ .price-bottom,.price-bottom2 p{
+     padding: 25px 0px 0px;
+}
+ .price-bottom button{
+     margin: 40px 0px;
+}
+/*price*/
+/*testimonal*/
+ .icon{
+}
+ .icon ul{
+     padding-left: 0px;
+}
+ .icon ul li{
+     padding: 0px 3px;
+     list-style: none;
+     color: rgb(255, 204, 0);
+}
+ .c-p-icon,.c-n-icon{
+     background: none;
+     color: #8e8e8e;
+     font-size: 32px;
+     margin-bottom: 50px;
+}
+ .c-c-n,.c-c-p{
+     align-items: flex-end;
+     width: 4%;
+}
+ .c-c-n{
+}
+ .c-c-p{
+     left: 450px;
+}
+ .c_p_icon, .c_n_icon{
+     background-image: none;
+     color: #333333;
+}
+/*testimonal*/
+/*ask*/
+ .accordion-item {
+     border: none;
+     background-color: #f5f7fa;
+}
+ .hr {
+     border-top: 3px solid #fff;
+}
+ .accordion-button{
+     padding: 25px 50px;
+     font-family: Poppins-Bold;
+     font-weight: 700;
+     font-size: 20px;
+     color: #242F51;
+     background-color: #F5F7FA;
+}
+ .accordion-button::after {
+     background-image: url(../image/plus.png);
+}
+ .accordion-button:not(.collapsed)::after {
+     background-image: url(../image/minus.png);
+}
+ .accordion-button:not(.collapsed) {
+     color: #242F51;
+     background-color: #e7f1ff;
+     box-shadow: none;
+}
+ .accordion-item:first-of-type .accordion-button{
+     border: none;
+}
+/*ask*/
+/*footer*/
+ footer{
+     background-color: #242f51;
+}
+ footer a{
+     color: #E2EAED;
+}
+ .com_u{
+     display: inline-block;
+}
+ .com_u ul{
+}
+ .com_u ul li{
+     list-style: none;
+}
+ .com_u ul li a{
+     padding: 15px 15px;
+     text-decoration: none;
+}
+ .f-con i{
+     font-size: 30px;
+}
+/*footer*/
+ 
